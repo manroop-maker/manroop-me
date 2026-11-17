@@ -1,0 +1,9 @@
+:root{--cream:#FAF3E2;--ink:#3B2F1F;--soft:#7A6B52;--gold:#B07F1E}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:18px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 20px 80px}
+h1{font:700 44px/1.1 "Caveat",cursive;color:var(--gold);margin:0 0 4px}
+h2{font:700 28px/1.2 "Caveat",cursive;margin:32px 0 6px}
+p,li{margin:8px 0}
+.soft{color:var(--soft)}
+a{color:var(--gold)}
