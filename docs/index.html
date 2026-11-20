@@ -1,11 +1,35 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Manroop</title>
+<meta name="description" content="Small things made for family and friends.">
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+body{background:#F4EFE6;color:#2D2619}
+h1{font-size:60px;color:#2D2619;line-height:1}
+.sub{color:#7A6B52;margin:4px 0 26px}
+a.tile{display:flex;align-items:center;gap:16px;text-decoration:none;border-radius:26px;padding:20px;margin:0 0 16px;box-shadow:0 4px 18px rgba(0,0,0,.10)}
+a.tile>img{width:84px;height:84px;border-radius:20px;flex:none}
+.t{font:700 34px/1.05 "Caveat",cursive}
+.d{font-size:16px;opacity:.85;margin-top:2px}
+.food{background:#FFFAEE;color:#3B2F1F;border:1px solid #E6D5AC}.food .t{color:#B07F1E}
+.tree{background:#EEF3EA;color:#22351E;border:1px solid #D5E2CC}.tree .t{color:#4F6E3D}
+.games{background:#111;color:#fff}
+.games .t{color:#FF5468;font-family:-apple-system,system-ui,sans-serif;font-weight:800;letter-spacing:.5px;font-size:26px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;width:112px;flex:none}
+.grid img{width:100%;height:auto;border-radius:7px}
+footer{color:#7A6B52;font-size:15px;margin-top:26px}
+footer a{color:#7A6B52}
+</style>
 </head><body><main>
 <h1>Manroop</h1>
-<p class="soft">Small things made for family and friends.</p>
-<p><a href="food/">Cooked it, Ate it</a>: our family recipes app.</p>
-<p><a href="tree/">Our Family Tree</a>: our family's story, generation by generation.</p>
+<p class="sub">Small things made for family and friends.</p>
+
+<a class="tile food" href="food/"><img src="food/icon.png" alt=""><div><div class="t">Cooked it, Ate it</div><div class="d">Our family recipes</div></div></a>
+
+<a class="tile tree" href="tree/"><img src="tree/icon.png" alt=""><div><div class="t">Our Family Tree</div><div class="d">Generation by generation</div></div></a>
+
+<a class="tile games" href="games/"><div class="grid" aria-hidden="true"><img src="games/icons/boards.png" alt=""><img src="games/icons/cards.png" alt=""><img src="games/icons/dice.png" alt=""><img src="games/icons/darts.png" alt=""><img src="games/icons/paddle.png" alt=""><img src="games/icons/bowling.png" alt=""><img src="games/icons/pump.png" alt=""><img src="games/icons/puzzles.png" alt=""></div><div><div class="t">THE GAMES</div><div class="d">Eight to play together</div></div></a>
+
+<footer>Private apps for family. <a href="mailto:mail@manroop.me">mail@manroop.me</a></footer>
 </main></body></html>
